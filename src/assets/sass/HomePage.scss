@@ -1,0 +1,43 @@
+$f1Red: #ff1801;
+
+.homePage{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .homeH1{
+    font-family: "Arial Black";
+    font-style: italic;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: $f1Red;
+  }
+
+  .f1logo{
+    max-width: 300px;
+  }
+
+  .car{
+    width: 600px;
+  }
+
+  button{
+
+    background: black;
+    color: $f1Red;
+    margin-top: 30px;
+    padding: 30px;
+    border: none;
+    font-weight: bolder;
+    border-radius: 50px;
+    max-width: 500px;
+
+    &:hover{
+      background: $f1Red;
+      color: black;
+    }
+  }
+
+}
+
+

@@ -1,0 +1,85 @@
+$f1Red: #ff1801;
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/spaW.jpg");
+  height: 100vh;
+}
+
+
+h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-family: "Arial Black";
+  font-style: italic;
+  font-size: xxx-large;
+  font-weight: bolder;
+  color: $f1Red;
+}
+
+.nextButton{
+  background: none;
+  border: none;
+}
+
+.prevButton{
+  background: none;
+  border: none;
+}
+
+.teampage{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 50px;
+  border-bottom-width: 50px;
+  border-radius: 10px;
+  background-image: url("../images/checkered.jpg");
+
+  h2 {
+    color: $f1Red;
+  }
+
+  p {
+    color: white;
+    font-weight: bolder;
+  }
+
+  img {
+    max-width: 400px;
+  }
+
+  .driverButton{
+    padding: 15px;
+    border-radius: 40px;
+    background: $f1Red;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: none;
+    font-weight: bolder;
+
+    &:hover{
+      background: black;
+      color: $f1Red;
+      font-weight: bolder;
+    }
+  }
+}
+
