@@ -1,0 +1,90 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ImageGallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url("../public/racetrack.jpg");
+}
+.ImageGallery img {
+    align-content: center;
+    margin-top: 20px;
+    max-width: 500px;
+    max-height: 500px;
+    border-radius: 10px;
+    background-image: url("../src/assets/images/bg.jpg");
+}
+.ImageGallery button {
+    align-content: center;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 15px;
+    padding: 15px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    color: black;
+    cursor: pointer;
+}
+.ImageGallery button :hover {
+    background-color: black;
+    color: red;
+}
+
+h1 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: "Arial Black";
+    font-style: italic;
+    font-size: xxx-large;
+    font-weight: bolder;
+    color: black;
+}
+
+.infoButtonClicked {
+    background: orangered;
+    color: black;
+}
+.infoButtonClicked:hover {
+    background: white;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 50px;
+    border-bottom-width: 10px;
+    border-radius: 10px;
+    background-image: url("../src/assets/images/checkered.jpg");
+}
+.info-container h2 {
+    color: red;
+    padding-top: 20px;
+}
+.info-container p {
+    color: white;
+    font-weight: bolder;
+}
+.info-container img {
+    max-width: 305px;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    background-color: black;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
